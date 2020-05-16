@@ -9,16 +9,14 @@ my $texto = "C:/Program";
 $digito = "0-9";
 $letra = "a-zA-z";
 $char = "$digito|$letra| ";
-
-#$chars = "[$char]*";
 $ext = "[\.][$char][$char]?[$char]?";
 $nombre = "[$char]+";
 $archivo = "$nombre$ext"; 
-#[\.][$char][$char]?[$char]?
+
 
 #validacion
 if($texto =~ /^([$letra][:])?([\/][$char]+($ext)?)*$/) {
-  print "Correcto";
+  print "Direccion correcta";
 }else{
-    print "incorrecto";
+    print "Direccion incorrecta";
 }
