@@ -1,5 +1,5 @@
 # Regular_expression
 Lenguaje: Perl
 Temas:
-1.	8. Determinar que la ruta de un directorio en DOS está correcta.
-2.	10.Validación de una dirección IP, ya que esta está formada por la forma [0-255].[0-255]. [0-255].[0-255].
+1.	8: Determinar que la ruta de un directorio en DOS está correcta.
+2.	10: Validación de una dirección IP, ya que esta está formada por la forma [0-255].[0-255]. [0-255].[0-255].
