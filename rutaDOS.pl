@@ -11,7 +11,7 @@ $nombre = "[$char]+";
 $archivo = "$nombre$ext"; 
 
 #validacion
-if($texto =~ /^([$letra][:])?([\\][$char]+($ext)?)*$/) {
+if($texto =~ /^([$letra][:])?([\\][$char|\s]+($ext)?)*$/) {
   print "Direccion correcta";
 }else{
     print "Direccion incorrecta";
