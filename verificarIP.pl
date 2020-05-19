@@ -1,7 +1,7 @@
 #!/usr/bin/perl
-
 #Definiciones regulares
-my $texto = "1.1.1.257";
+print "Digite la IP a verificar: ";
+my $texto=<STDIN>;
 $digito = "0-9";
 $digcinco = "0-5";
 $digcuatro = "0-4";
