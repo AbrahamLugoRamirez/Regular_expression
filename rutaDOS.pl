@@ -8,10 +8,10 @@ $letra = "a-zA-z";
 $char = "$digito|$letra|";
 $ext = "[\.][$char][$char]?[$char]?";
 $nombre = "[$char]+";
-$archivo = "$nombre$ext"; 
+$archivo = "[$char|\s]+($ext)?"; 
 
 #validacion
-if($texto =~ /^([$letra][:])?([\\][$char|\s]+($ext)?)+$/) {
+if($texto =~ /^([$letra][:])?([\\]$archivo)+$/) {
   print "Direccion DOS correcta";
 }else{  
   print "Direccion DOS incorrecta";
