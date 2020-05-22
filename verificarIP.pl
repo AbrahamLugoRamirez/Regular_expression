@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 print "Digite la IP a verificar: ";
 my $texto=<STDIN>;
+
 #Definiciones regulares
 $digito = "0-9";
 $digcinco = "0-5";
